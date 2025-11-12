@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Supreme_pizza.jpg/1200px-Supreme_pizza.jpg");
+        background-repeat: no-repeat;     
+        background-size: cover;           
+        min-height: 100vh;               
+     margin: 0;
+    padding: 20px;
+    color: #15ff00c5;
+    
+}
+h1, h2, h3 {
+    color: #15ff0083;
+    border-bottom: 2px solid #15ff0083;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+p {
+    color:#15ff0083
+}
+nav {
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #15ff0083;
+    margin-right: 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+form{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #15ff0083 ;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type= "date"],
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+a {
+    color: #15ff0083;         
+  }
+button {
+    background-color: #ff0800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #15ff0083;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    
+    nav a {
+        margin-right: 0;
+    }
+    form {
+        max-width: 100%;
+        padding: 15px;
+    }
+    input, select, button {
+        font-size: 16px;
+    }
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+}
